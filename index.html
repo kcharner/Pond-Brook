@@ -7,35 +7,63 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!-- primary navbar start -->
-    <nav class="navbar navbar-default homeNav">
-        <div class="container-fluid" id="fluidHeader">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <img id="logoMain" src="assets/images/pondBrookRoad.png"></img>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="links">
-                    <li><a href="#" title="">A</a></li>
-                    <li><a href="#" title="">B</a></li>
-                    <li><a href="#" title="">C</a></li>
-                    <li><a href="#" title="">D</a></li>
+    <!-- CUSTOM LOGO --> 
+    <div class="container-fluid">
+        <div class="row">
+            <header class="customLogo">
+                <img id="logoMain" src="assets/images/pondBrookRd.png"></img>
+            </header>
+        </div>
+    </div>
+    <!-- PRIMARY NAV -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default primaryNav">
+                <ul id="navList">
+                    <li class="links"><a href="#">home</a></li>
+                    <li class="links"><a href="#">decor</a></li>
+                    <li class="links"><a href="#">tabletop</a></li>
+                    <li class="links"><a href="#">vintage</a></li>
+                    <li class="links"><a href="#">seasonal</a></li>
+                    <li><a href="#">furniture</a></li>
                 </ul>
+            </nav>
+        </div>
+    </div> 
+    <!-- FEATURED CONTENT --> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1" id="featuredContent">
+                <h1 class="headers">Featured Item</h1>
             </div>
         </div>
-    </nav>
-
-
+    </div> 
     <div class="container-fluid">
-    	<div class="row" id="footer">
+        <div class="row" id="secondaryFeatures">
+            <div class="col-xs-3 col-xs-offset-1 grids" id="leftGrid">
+                <h2 class="headers">Seasonal</h2>
+            </div>
+            <div class="col-xs-3 grids" id="middleGrid">
+                <h2 class="headers">New</h2>
+            </div>
+            <div class="col-xs-3 col-xs-offset-1 grids" id="rightGrid">
+                <h2 class="headers">Blog</h2>
+            </div>
+        </div>
+    </div> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 centeredContent">
+                <h4>Genuine farm decor handmade in America.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+    	<div class="row centeredContent" id="footer">
       		<p id="copyright">Copyright 2017 charnerwebstudio</p>
       	</div>
    	</div>

@@ -1,0 +1,105 @@
+/*page header*/
+
+#logoMain {
+	margin-left: 34%;
+}
+
+/*navbar*/
+
+.primaryNav {
+	background-color: white;
+	border: none;
+}
+
+#navList {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 1%;
+}
+
+li {
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	text-decoration: underline;
+	font-family: Cinzel;
+}
+
+a {
+	color: #454545;
+}
+
+a:hover {
+	color: #454545;
+}
+
+a:visited {
+	color: #454545;
+}
+
+.links {
+	padding-right: 7%;
+}
+
+/*product content*/
+
+#featuredContent {
+	min-height: 688px;
+	background-image: url("../images/featuredProduct.jpg");
+	background-repeat: no-repeat;
+}
+
+.headers {
+	padding-left: 2%;
+	color: white;
+}
+
+#secondaryFeatures {
+	margin-top: 3%;
+}
+
+.grids {
+	background-repeat: no-repeat;
+	min-height: 367px;
+}
+
+#leftGrid {
+	background-image: url("../images/seasonal.jpg");
+	margin-right: 4.2%;
+}
+
+#middleGrid {
+	background-image: url("../images/new.jpg");
+}
+
+#rightGrid {
+	background-image: url("../images/blog.jpg");
+	margin-left: 4.2%;
+}
+
+/*text content*/
+
+.centeredContent {
+	text-align: center;
+	padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
